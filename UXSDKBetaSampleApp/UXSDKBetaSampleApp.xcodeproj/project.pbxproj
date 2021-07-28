@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		3A2E6450248EFB8B00BFC6E5 /* SingleWidgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E644F248EFB8B00BFC6E5 /* SingleWidgetViewController.swift */; };
 		3A2E6454248EFD2000BFC6E5 /* CustomMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E6453248EFD2000BFC6E5 /* CustomMapViewController.swift */; };
 		3A2E65FC24904E2300BFC6E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2E65FB24904E2300BFC6E5 /* Main.storyboard */; };
+		43463022064956B8C60F4081 /* Pods_UXSDKBetaSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A63D2F9AFFF16EBC378AF9 /* Pods_UXSDKBetaSampleApp.framework */; };
 		530DAD0F21E534C200E32774 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530DAD0E21E534C200E32774 /* AppDelegate.swift */; };
 		530DAD1621E534C400E32774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530DAD1521E534C400E32774 /* Assets.xcassets */; };
 		530DAD1921E534C400E32774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530DAD1721E534C400E32774 /* LaunchScreen.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18A63D2F9AFFF16EBC378AF9 /* Pods_UXSDKBetaSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UXSDKBetaSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CEB9CF238DB9CB0040A8B4 /* DefaultLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLayoutViewController.swift; sourceTree = "<group>"; };
 		22F4549424E1C0130030F12E /* PictureInPicturePanelWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureInPicturePanelWidget.swift; sourceTree = "<group>"; };
 		3A2E644D248EE95500BFC6E5 /* WidgetsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsListViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		530DADA121E574DB00E32774 /* ProductCommunicationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCommunicationService.swift; sourceTree = "<group>"; };
 		530DADB921E6738600E32774 /* UXSDKSampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UXSDKSampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		632D03A826A6FD0A000300B4 /* DistortionResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DistortionResource.bundle; sourceTree = "<group>"; };
+		9A7104D0E51A4831C1350F39 /* Pods-UXSDKBetaSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXSDKBetaSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-UXSDKBetaSampleApp/Pods-UXSDKBetaSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		AC60CF7721F7C6EC00825022 /* DJISDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DJISDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC60CF9A21F7F0F900825022 /* CustomSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSplitViewController.swift; sourceTree = "<group>"; };
 		B649D19A2592871700236ED0 /* UXSDKAccessory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UXSDKAccessory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +84,7 @@
 		B6D19F1924EDA68200737526 /* UXSDKAccessory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UXSDKAccessory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D19F7524EDBA6000737526 /* Forge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Forge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F8A65B24C0BACB005FC695 /* UIControl+DUXHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+DUXHelpers.swift"; sourceTree = "<group>"; };
+		C613E48A82323712AC921447 /* Pods-UXSDKBetaSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXSDKBetaSampleApp.release.xcconfig"; path = "Target Support Files/Pods-UXSDKBetaSampleApp/Pods-UXSDKBetaSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43463022064956B8C60F4081 /* Pods_UXSDKBetaSampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +198,7 @@
 				B6A2FAFE24DB602000B4700A /* DJIUXSDK.framework */,
 				AC60CF7721F7C6EC00825022 /* DJISDK.framework */,
 				530DAD7E21E5408700E32774 /* DJISDK.framework */,
+				18A63D2F9AFFF16EBC378AF9 /* Pods_UXSDKBetaSampleApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,6 +232,8 @@
 		D9AAC44DB988F763D05D7DE7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				9A7104D0E51A4831C1350F39 /* Pods-UXSDKBetaSampleApp.debug.xcconfig */,
+				C613E48A82323712AC921447 /* Pods-UXSDKBetaSampleApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -237,10 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 530DAD2821E534C400E32774 /* Build configuration list for PBXNativeTarget "UXSDKBetaSampleApp" */;
 			buildPhases = (
+				D0A39511CCACCAADB18B17CC /* [CP] Check Pods Manifest.lock */,
 				530DAD0721E534C200E32774 /* Sources */,
 				530DAD0821E534C200E32774 /* Frameworks */,
 				530DAD0921E534C200E32774 /* Resources */,
 				3A94CFDD240F192600B1DDA2 /* ShellScript */,
+				F96B80CB633EE4FA9BEBF92E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,12 +286,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = DJI;
 				TargetAttributes = {
 					530DAD0A21E534C200E32774 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1250;
 					};
 					530DAD1E21E534C400E32774 = {
 						CreatedOnToolsVersion = 10.1;
@@ -346,6 +356,45 @@
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script removes unwanted architectures in the FFmpeg framework for IPA signing for enterprise\n# testing.\nfind \"$APP_PATH\" -name 'FFmpeg.framework' -type d | while read -r FRAMEWORK\ndo\n    FRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\n    FRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\n    echo \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\n    EXTRACTED_ARCHS=()\n\n    echo \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\n    lipo -thin \"arm64\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-arm64\"\n    echo \"Replacing original executable with thinned version\"\n    echo \"rm $FRAMEWORK_EXECUTABLE_PATH\"\n    rm \"$FRAMEWORK_EXECUTABLE_PATH\"\n    echo \"mv $FRAMEWORK_EXECUTABLE_PATH-arm64 $FRAMEWORK_EXECUTABLE_PATH\"\n    mv \"$FRAMEWORK_EXECUTABLE_PATH-arm64\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone\n";
+			showEnvVarsInLog = 0;
+		};
+		D0A39511CCACCAADB18B17CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UXSDKBetaSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96B80CB633EE4FA9BEBF92E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UXSDKBetaSampleApp/Pods-UXSDKBetaSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UXSDKBetaSampleApp/Pods-UXSDKBetaSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UXSDKBetaSampleApp/Pods-UXSDKBetaSampleApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -427,6 +476,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -453,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -489,6 +539,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -509,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -521,57 +572,59 @@
 		};
 		530DAD2921E534C400E32774 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7104D0E51A4831C1350F39 /* Pods-UXSDKBetaSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXBJGMV63M;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/UXSDKBetaSampleApp/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dji.UXSDKBetaSample;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.hdrpano.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "UXSDKBetaSampleApp/UXSDKSampleApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		530DAD2A21E534C400E32774 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C613E48A82323712AC921447 /* Pods-UXSDKBetaSampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXBJGMV63M;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/UXSDKBetaSampleApp/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dji.UXSDKBetaSample;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.hdrpano.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "UXSDKBetaSampleApp/UXSDKSampleApp-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -582,7 +635,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 38D4M22449;
+				DEVELOPMENT_TEAM = WXBJGMV63M;
 				INFOPLIST_FILE = UXSDKSampleAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -603,7 +656,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 38D4M22449;
+				DEVELOPMENT_TEAM = WXBJGMV63M;
 				INFOPLIST_FILE = UXSDKSampleAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

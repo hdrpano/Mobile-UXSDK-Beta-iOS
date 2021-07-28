@@ -26,7 +26,7 @@
 import UIKit
 import DJIUXSDKBeta
 
-protocol WidgetSelectionDelegate: class {
+protocol WidgetSelectionDelegate: AnyObject {
     func widgetSelected(_ newWidget: DUXBetaBaseWidget?, shouldShowCustomizationView:Bool)
 }
 
@@ -42,7 +42,7 @@ class WidgetsListViewController: UITableViewController {
                                                     "Compass Widget" : "Widget that displays the position of the aircraft in relation to the home point and pilot location.",
                                                     "Connection Widget" : "Widget that reflects the connected to aircraft state.",
                                                     "Distance Home Widget" : "The widget that displays the distance between the current location of the aicraft and the recorded home point.",
-                                                    "Distance Remote Control Widget" : "The widget that displays the distance between the current location of the aicraft and the remote controller location.",
+                                                    "Distance RC Widget" : "The widget that displays the distance between the current location of the aicraft and the remote controller location.",
                                                     "Flight Mode Widget" : "Widget to show the current flight mode of the aircraft.",
                                                     "FPV Widget" : "Widget that shows the video feed from the camera.",
                                                     "GPS Signal Widget" : "Widget that displays the drone's connection strength to GPS.",
